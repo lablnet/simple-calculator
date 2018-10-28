@@ -1,6 +1,6 @@
 # Simple calculator in python
 
-# My First Program Python Program!!!
+# My First Python program!!!
 
 # Features
 

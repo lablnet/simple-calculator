@@ -6,7 +6,7 @@ def addition ():
 	while n != 0:
 		ans = ans + n
 		t+=1
-		n = float(input("Enter another number (0 to calculate): "));
+		n = float(input("Enter another number (0 to calculate): "))
 	return [ans,t]
 
 def substraction ():
@@ -17,7 +17,7 @@ def substraction ():
 	while n != 0:
 		ans = ans + n
 		t+=1
-		n = float(input("Enter another number (0 to calculate): "));
+		n = float(input("Enter another number (0 to calculate): "))
 	return [ans,t]
 def multiplication ():
 	print("Multiplication")
@@ -27,7 +27,7 @@ def multiplication ():
 	while n != 0:
 		ans = ans * n
 		t+=1
-		n = float(input("Enter another number (0 to calculate): "));
+		n = float(input("Enter another number (0 to calculate): "))
 	return [ans,t]
 		
 def average():
@@ -62,7 +62,7 @@ while True:
 			print("Ans = ", list[0], " total inputs ",list[1])
 		elif c == 'v':
 			list = average()
-			print("Ans = ", list[0], " total inputs ",list[1]);	
+			print("Ans = ", list[0], " total inputs ",list[1])
 		else:
 			print ("Sorry, invilid character")
 	else:

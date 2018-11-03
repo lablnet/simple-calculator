@@ -9,13 +9,13 @@ def addition ():
 		n = float(input("Enter another number (0 to calculate): "))
 	return [ans,t]
 
-def substraction ():
-	print("Substraction");
+def subtraction ():
+	print("Subtraction");
 	n = float(input("Enter the number: "))
 	t = 0 #Total number enter
 	sum = 0
 	while n != 0:
-		ans = ans + n
+		ans = ans - n
 		t+=1
 		n = float(input("Enter another number (0 to calculate): "))
 	return [ans,t]
@@ -55,7 +55,7 @@ while True:
 			list = addition()
 			print("Ans = ", list[0], " total inputs ",list[1])
 		elif c == 's':
-			list = substraction()
+			list = subtraction()
 			print("Ans = ", list[0], " total inputs ",list[1])
 		elif c == 'm':
 			list = multiplication()

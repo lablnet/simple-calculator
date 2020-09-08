@@ -1,10 +1,10 @@
-# Simple calculator in python
+# Calculator like a interpreter
 
-# My First Python program!!!
-
-# Features
-
+## Features
+Its parse the given expression
 - Addition
 - Substraction
 - Multiplication
-- Average
+
+## License
+MIT

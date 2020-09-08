@@ -1,4 +1,4 @@
-# Calculator like a interpreter
+# Calculator like an interpreter
 
 ## Features
 Its parse the given expression

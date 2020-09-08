@@ -5,6 +5,7 @@ Its parse the given expression
 - Addition
 - Substraction
 - Multiplication
+- Division
 
 ## Purpose
 To understand how simple **interpreter** can works.
